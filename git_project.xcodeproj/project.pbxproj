@@ -12,6 +12,8 @@
 		A007EE151EBCB6C900E212C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A007EE131EBCB6C900E212C8 /* Main.storyboard */; };
 		A007EE171EBCB6C900E212C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A007EE161EBCB6C900E212C8 /* Assets.xcassets */; };
 		A007EE1A1EBCB6C900E212C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A007EE181EBCB6C900E212C8 /* LaunchScreen.storyboard */; };
+		A007EE231EBCCAD900E212C8 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007EE211EBCCAD900E212C8 /* MyViewController.swift */; };
+		A007EE241EBCCAD900E212C8 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A007EE221EBCCAD900E212C8 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A007EE161EBCB6C900E212C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A007EE191EBCB6C900E212C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A007EE1B1EBCB6C900E212C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A007EE211EBCCAD900E212C8 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A007EE221EBCCAD900E212C8 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A007EE161EBCB6C900E212C8 /* Assets.xcassets */,
 				A007EE181EBCB6C900E212C8 /* LaunchScreen.storyboard */,
 				A007EE1B1EBCB6C900E212C8 /* Info.plist */,
+				A007EE211EBCCAD900E212C8 /* MyViewController.swift */,
+				A007EE221EBCCAD900E212C8 /* MyViewController.xib */,
 			);
 			path = git_project;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			files = (
 				A007EE1A1EBCB6C900E212C8 /* LaunchScreen.storyboard in Resources */,
 				A007EE171EBCB6C900E212C8 /* Assets.xcassets in Resources */,
+				A007EE241EBCCAD900E212C8 /* MyViewController.xib in Resources */,
 				A007EE151EBCB6C900E212C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A007EE121EBCB6C900E212C8 /* ViewController.swift in Sources */,
+				A007EE231EBCCAD900E212C8 /* MyViewController.swift in Sources */,
 				A007EE101EBCB6C900E212C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				A007EE201EBCB6C900E212C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
